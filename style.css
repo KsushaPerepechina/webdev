@@ -137,17 +137,17 @@ header > .logo > .vector {
 
 header > #menu {
 	position: absolute;
-	width: 53px;
-	height: 20px;
 	top: 38px;
-
-	font-family: Roboto, sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 140%;
 	display: flex;
 	align-items: center;
+
+	width: 53px;
+	height: 20px;
+	font-family: Roboto, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 140%;
 
 	color: white;
 
@@ -156,26 +156,26 @@ header > #menu {
 
 #about {
 	position: absolute;
-	width: 38px;
 	left: 502px;
+	width: 38px;
 }
 
 #syllabus {
 	position: absolute;
-	width: 53px;
 	left: 625px;
+	width: 53px;
 }
 
 #projects {
 	position: absolute;
-	width: 52px;
 	left: 923px;
+	width: 52px;
 }
 
 #faq {
 	position: absolute;
-	width: 26px;
 	left: 1058px;
+	width: 26px;
 }
 
 .active,
@@ -274,52 +274,73 @@ header > #menu {
 	position: absolute;
 	top: 80px;
 	left: 1252px;
-	width: 79px;
+	width: 85px;
 	height: 20px;
 }
 
-.our-community-block > .navigation > .rectangle-forward {
+#forward {
 	position: absolute;
-	top: 10px;
-	left: 79px;
-	/*box-sizing: border-box;*/
-	width: 8px;
-
-	height: 8px;
-	/*border: 2px solid #373737;*/
-	/*transform: matrix(-.71,-.71,-.71,.71,0,0);*/
+	top: 3px;
+	left: 69px;
+	width: 15px;
+	height: 14px;
 }
 
-.our-community-block > .navigation > .rectangle-back {
+#back {
 	position: absolute;
-	top: 10px;
-	left: 0;
-	/*box-sizing: border-box;*/
-	width: 8px;
+	top: 3px;
+	left: -5px;
+	width: 15px;
+	height: 14px;
+}
 
-	height: 8px;
-	/*border: 2px solid #373737;*/
-	/*transform: rotate(90deg);*/
+#back:hover,
+#forward:hover {
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .our-community-block > .navigation > .pagination {
 	position: absolute;
-	top: calc(50% - 25px/2 - 1px);
-	left: calc(50% - 37px/2);
+	top: -2px;
+	left: 22px;
 	display: flex;
 	align-items: center;
 
-	width: 37px;
+	width: 36px;
 	height: 25px;
 	font-family: Roboto, sans-serif;
 	font-size: 18px;
 	font-style: normal;
-/* or 25px */
 	font-weight: normal;
 	line-height: 140%;
 	color: #373737;
 
 	text-align: center;
+}
+
+#page-number {
+	position: absolute;
+	top: -1px;
+	left: -13px;
+	width: 35px;
+	height: 25px;
+}
+
+#slash {
+	position: absolute;
+	top: -1px;
+	left: 0;
+	width: 35px;
+	height: 25px;
+}
+#page-amount {
+	position: absolute;
+	top: -1px;
+	left: 13px;
+	width: 35px;
+	height: 25px;
 }
 
 .our-community-block > .slider {
@@ -378,7 +399,7 @@ header > #menu {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 407px;
+	width: 20px;
 	height: 244px;
 
 	background: url(assets/slider-item-3.jpg), #C4C4C4;
@@ -399,7 +420,7 @@ header > #menu {
 	display: flex;
 	align-items: center;
 
-	width: 160px;
+	/*width: 160px;*/
 	height: 20px;
 	font-family: Roboto, sans-serif;
 	font-size: 16px;
@@ -554,18 +575,18 @@ header > #menu {
 .subscribe-block > .content-block > .form > .form-field {
 	position: absolute;
 	top: 0;
+	display: flex;
+	align-items: flex-end;
 	width: 340px;
-	height: 44px;
-	text-indent: 22px;
 
+	height: 44px;
 	font-family: Roboto, sans-serif;
 	font-size: 14px;
 	font-style: normal;
 	font-weight: normal;
-	line-height: 19.6px;
 
-	display: flex;
-	align-items: flex-end;
+	line-height: 20px;
+	text-indent: 22px;
 
 	border: 0;
 }
@@ -823,7 +844,7 @@ button {
 }
 
 button:hover {
-	background: #009CC2;
+	cursor: pointer;
 }
 
 button > .label {
