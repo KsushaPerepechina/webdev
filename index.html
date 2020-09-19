@@ -11,41 +11,29 @@
 			<article>
 
 				<div class="your-life-block">
-					<div class="image"></div>
+					<img class="image" src="assets/your-life-block-background.jpg" alt="your life block background">
 
 					<header>
 						<div class="logo">
 							<img class="vector" src="assets/logo.svg" alt="logo">
 						</div>
-						<div class="faq">FAQ</div>
-						<div class="projects">Projects</div>
-						<div class="syllabus">Syllabus</div>
-						<div class="active">
-							<div class="underline"></div>
-							<div class="about">About</div>
+						<div id="menu">
+							<a id="about" class="el active">About</a>
+							<a id="syllabus" class="el">Syllabus</a>
+							<a id="projects" class="el">Projects</a>
+							<a id="faq" class="el">FAQ</a>
 						</div>
 					</header>
 
-					<button class="btn">
-						<a class="label">get started</a>
+					<button type="button">
+						<img class="label" src="assets/get-started-btn.svg" alt="get started"/>
 					</button>
 
 					<div class="socials">
-						<div class="mail">
-							<img class="vector" src="assets/mail.svg" alt="mail">
-						</div>
-
-						<div class="facebook">
-							<img class="vector" src="assets/facebook.svg" alt="facebook">
-						</div>
-
-						<div class="instagram">
-							<img class="vector" src="assets/instagram.svg" alt="instagram">
-						</div>
-
-						<div class="youtube">
-							<img class="vector" src="assets/youtube.svg" alt="youtube">
-						</div>
+						<input type="image" class="mail" src="assets/mail.svg" alt="mail"/>
+						<input type="image" class="instagram" src="assets/instagram.svg" alt="instagram">
+						<input type="image" class="facebook" src="assets/facebook.svg" alt="facebook">
+						<input type="image" class="youtube" src="assets/youtube.svg" alt="youtube">
 					</div>
 
 					<div class="small-text">Whatever the approach to development may be, the final program must satisfy some fundamental properties</div>
@@ -54,13 +42,12 @@
 
 
 				<div class="represent-block">
-					<div class="background"></div>
 					<div class="content-block">
-						<button class="btn">
-							<a class="label">get started</a>
+						<button type="button">
+							<img class="label" src="assets/get-started-btn.svg" alt="get started"/>
 						</button>
 						<div class="big-text">Represent your idea with a smart Design</div>
-						<div class="small-text">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, implementation of build systems, and management of derived artifacts, such as the machine code of computer programs.</div>
+						<div class="small-text">Tasks accompanying and related to programming include: testing, debugging, source code maintenance, <strong>implementation of build systems</strong>, and management of derived artifacts, such as the machine code of computer programs.</div>
 					</div>
 
 					<div class="image"></div>
@@ -70,17 +57,16 @@
 				<div class="implement-block">
 					<div class="image"></div>
 					<div class="content-block">
-						<button class="btn">
-							<a class="label">Learn more</a>
+						<button type="button">
+							<img class="label" src="assets/learn-more-btn.svg" alt="learn more"/>
 						</button>
 						<div class="big-text">Implement right Code</div>
-						<div class="small-text">These might be considered part of the programming process, but often the term software development is used for this larger process with the term programming, implementation</div>
+						<div class="small-text">These might be considered part of the <strong>programming process</strong>, but often the term software development is used for this larger process with the term programming, implementation</div>
 					</div>
 				</div>
 
 
 				<div class="our-community-block">
-
 					<div class="navigation">
 						<img class="rectangle-forward" src="assets/forward.svg" alt="forward">
 						<img class="rectangle-back" src="assets/back.svg" alt="back">
@@ -110,18 +96,16 @@
 
 
 				<div class="subscribe-block">
-					<div class="image"></div>
-
+					<img src="assets/subscribe-block-background.jpg" alt="subscribe block background">
 					<div class="content-block">
 						<div class="form">
-							<div class="btn">
-								<div class="rectangle"></div>
-								<img class="check-mark" src="assets/check-mark.svg" alt="check-mark">
-							</div>
-							<div class="form-field">
-								<div class="rectangle"></div>
-								<div class="text">E-mail</div>
-							</div>
+							<input class="form-field"
+										 pattern="(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])"
+										 placeholder="E-mail"
+										 type="email">
+							<button>
+								<img class="label" src="assets/check-mark.svg" alt="check-mark">
+							</button>
 						</div>
 						<div class="text">sign up for our newsletter</div>
 					</div>
@@ -129,56 +113,31 @@
 
 
 				<div class="download-block">
-
-					<div class="play-market">
-						<div class="icon">
-							<div class="rectangle"></div>
-							<div class="label">
-								<img class="shape" src="assets/android.svg" alt="android">
-							</div>
-						</div>
-						<div class="field">
-							<div class="rectangle"></div>
-							<div class="text">Play Market</div>
-						</div>
-					</div>
-
-					<div class="app-store">
-						<div class="icon">
-							<div class="rectangle"></div>
-							<div class="label">
-								<img class="shape" src="assets/apple.svg" alt="apple">
-							</div>
-						</div>
-
-						<div class="field">
-							<div class="rectangle"></div>
-							<div class="text">Apple Store</div>
-						</div>
-					</div>
+					<button type="button" class="play-market">
+						<img class="icon" src="assets/play-market-btn.svg" alt="play market"/>
+					</button>
+					<button type="button" class="app-store">
+						<img class="icon" src="assets/apple-store-btn.svg" alt="apple store"/>
+					</button>
 
 					<div class="small-text">Machine code was the language of early programs, written in the instruction set of the particular machine, often in binary notation.</div>
 					<div class="big-text">Download the App</div>
-
 				</div>
 
 
 				<footer>
-					<div class="copyright">
-						<div class="text">by TonYem for RSS at 2020</div>
-					</div>
+					<div class="copyright">by TonYem for RSS at 2020</div>
+					<h1 class="webdev">webdev</h1>
 
 					<div class="navigation">
-						<div class="logo">
-							<img class="vector" src="assets/logo.svg" alt="logo">
-						</div>
+						<img class="logo" src="assets/logo.svg" alt="logo">
 
 						<div class="menu">
-							<div class="item-3">Our teams</div>
+							<a class="item-3">Our teams</a>
 							<div class="splitter-2"></div>
-							<div class="item-2">Privacy</div>
+							<a class="item-2">Privacy</a>
 							<div class="splitter-1"></div>
-							<div class="item-1">Credits</div>
+							<a class="item-1">Credits</a>
 						</div>
 					</div>
 				</footer>
@@ -186,4 +145,7 @@
 			</article>
 		</main>
 	</body>
+
+	<script src="js/activation.js"></script>
+
 </html>
